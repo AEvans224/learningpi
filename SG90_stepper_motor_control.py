@@ -6,11 +6,11 @@ servo = AngularServo(
     18,
     min_angle = 0,
     max_angle=180,
-    min_pulse_width=0.0007,
-    max_pulse_width=0.0021
+    min_pulse_width=0.0006,
+    max_pulse_width=0.0023
 )
 
-idx = 0
+idx = 1
 
 while True:
     if idx == 0: #basic movement
