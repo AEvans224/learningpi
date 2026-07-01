@@ -9,4 +9,3 @@ while True:
     sleep(2)
     kit.servo[0].angle=180
     sleep(2)
-    
